@@ -1,22 +1,108 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
-    <title>INIADの紹介</title>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>INIAD | Information Networking for Innovation and Design</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: #f4f7fa;
+        color: #243247;
+        font-family: system-ui, sans-serif;
+        line-height: 1.7;
+      }
+
+      .hero {
+        min-height: 48vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 4rem 1.5rem;
+        background: linear-gradient(135deg, #102a43, #174a68);
+        color: #fff;
+        text-align: center;
+      }
+
+      .hero h1 {
+        margin: 0;
+        font-size: clamp(4rem, 14vw, 8rem);
+        font-weight: 800;
+        letter-spacing: 0.08em;
+        line-height: 1;
+      }
+
+      .initial {
+        color: #56e0c2;
+      }
+
+      .hero p {
+        max-width: 800px;
+        margin: 1.5rem 0 0;
+        font-size: clamp(1rem, 2.5vw, 1.5rem);
+        letter-spacing: 0.04em;
+      }
+
+      main {
+        max-width: 850px;
+        margin: 0 auto;
+        padding: 2rem 1.25rem 4rem;
+      }
+
+      h2 {
+        margin-top: 2rem;
+        padding-bottom: 0.4rem;
+        border-bottom: 3px solid #56b9aa;
+        color: #174a68;
+      }
+
+      ul {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+        gap: 0.8rem;
+        padding: 0;
+        list-style: none;
+      }
+
+      li {
+        padding: 1rem;
+        border: 1px solid #dce5ee;
+        border-radius: 8px;
+        background: #fff;
+        box-shadow: 0 2px 6px rgb(20 50 80 / 8%);
+      }
+    </style>
   </head>
   <body>
-    <h1>INIADの紹介</h1>
-    <h2>概要</h2>
-    <p>INIADでは入学直後から、世界中で使われているプログラミング言語「Python」を学びます。さらに、ソースプログラム管理システム「Git」を用いたチームでのWebサービス開発も学びます。</p>
-    <h2>科目群一覧</h2>
-    <ul>
-      <li>コンピュータ・システム</li>
-      <li>コンピュータ・ソフトウェア</li>
-      <li>ユーザ・エクスペリエンス</li>
-      <li>データサイエンス</li>
-      <li>ICT社会応用</li>
-      <li>連携科目群</li>
-      <li>ビジネス構築</li>
-      <li>コミュニティ形成</li>
-    </ul>
+    <header class="hero">
+      <h1><span class="initial">I</span>N<span class="initial">I</span>A<span class="initial">D</span></h1>
+      <p><span class="initial">I</span>nformation <span class="initial">N</span>etworking for <span class="initial">I</span>nnovation and <span class="initial">D</span>esign</p>
+    </header>
+
+    <main>
+      <section>
+        <h2>概要</h2>
+        <p>INIADでは入学直後から、世界中で使われているプログラミング言語「Python」を学びます。さらに、ソースプログラム管理システム「Git」を用いたチームでのWebサービス開発も学びます。</p>
+      </section>
+
+      <section>
+        <h2>科目群一覧</h2>
+        <ul>
+          <li>コンピュータ・システム</li>
+          <li>コンピュータ・ソフトウェア</li>
+          <li>ユーザ・エクスペリエンス</li>
+          <li>データサイエンス</li>
+          <li>ICT社会応用</li>
+          <li>連携科目群</li>
+          <li>ビジネス構築</li>
+          <li>コミュニティ形成</li>
+        </ul>
+      </section>
+    </main>
+  </body>
 </html>
